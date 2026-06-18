@@ -1,0 +1,13 @@
+Accessibility Violations found:
+- label-title-only: Ensure that every form element has a visible label and is not solely labeled using hidden labels, or the title or aria-describedby attributes
+ Help: https://dequeuniversity.com/rules/axe/4.11/label-title-only?application=playwright
+ Nodes: <input class="subjects-auto-comple..." autocapitalize="none" autocomplete="off" autocorrect="off" id="subjectsInput" spellcheck="false" tabindex="0" aria-autocomplete="list" aria-expanded="false" aria-haspopup="true" role="combobox" aria-activedescendan...="" type="text" value="" ...>
+<input class="" autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-3-input" spellcheck="false" tabindex="0" aria-autocomplete="list" aria-expanded="false" aria-haspopup="true" role="combobox" aria-activedescendan...="" aria-describedby="react-select-3-place..." value="" ...>
+---
+- label: Ensure every form element has a label
+ Help: https://dequeuniversity.com/rules/axe/4.11/label?application=playwright
+ Nodes: <input id="dateOfBirthInput" class="form-control" type="text" value="17 Jun 2026">
+<input class="subjects-auto-comple..." autocapitalize="none" autocomplete="off" autocorrect="off" id="subjectsInput" spellcheck="false" tabindex="0" aria-autocomplete="list" aria-expanded="false" aria-haspopup="true" role="combobox" aria-activedescendan...="" type="text" value="" ...>
+<input label="Select picture" lang="en" id="uploadPicture" class="form-control" type="file">
+<input class="" autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-3-input" spellcheck="false" tabindex="0" aria-autocomplete="list" aria-expanded="false" aria-haspopup="true" role="combobox" aria-activedescendan...="" aria-describedby="react-select-3-place..." value="" ...>
+---

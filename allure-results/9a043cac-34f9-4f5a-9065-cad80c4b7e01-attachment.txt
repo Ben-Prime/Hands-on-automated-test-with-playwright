@@ -1,0 +1,3 @@
+Slow 3G network conditions have been enabled.
+Page loaded in 22330ms under slow 3G conditions.
+Network emulation has been disabled.

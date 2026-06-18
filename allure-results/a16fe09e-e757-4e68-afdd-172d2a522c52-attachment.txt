@@ -1,0 +1,6 @@
+Navigation timings: {
+  startTime: 0,
+  connectEnd: 2090.9000000003725,
+  domContentLoaded: 3845.5,
+  loadTime: 4295
+}

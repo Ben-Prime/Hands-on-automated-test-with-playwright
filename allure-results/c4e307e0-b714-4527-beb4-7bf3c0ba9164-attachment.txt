@@ -1,0 +1,3 @@
+Dialog type: alert, message: I am an alert box!
+Dialog type: confirm, message: I am a confirm alert
+Dialog type: prompt, message: I prompt you

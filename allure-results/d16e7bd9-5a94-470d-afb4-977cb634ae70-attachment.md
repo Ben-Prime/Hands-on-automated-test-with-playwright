@@ -1,0 +1,130 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: chapter_6\parallelizing_test_within_a_file_test.spec.ts >> V2 Test 1 - Google.com has correct title
+- Location: tests\chapter_6\parallelizing_test_within_a_file_test.spec.ts:23:5
+
+# Error details
+
+```
+Error: expect(page).toHaveTitle(expected) failed
+
+Expected: "/YouTube/"
+Received: "YouTube"
+Timeout:  60000ms
+
+Call log:
+  - Expect "toHaveTitle" with timeout 60000ms
+    119 × unexpected value "YouTube"
+
+```
+
+```yaml
+- banner:
+  - button "Guide"
+  - link "YouTube Home":
+    - /url: /
+  - text: NG
+  - button "Skip navigation"
+  - search:
+    - combobox "Search" [expanded]
+    - button "Search"
+  - button "Settings"
+  - link "Sign in":
+    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620
+- navigation:
+  - link "Home":
+    - /url: /
+  - link "Shorts":
+    - /url: /shorts/
+  - link "Subscriptions":
+    - /url: /feed/subscriptions
+  - link "You":
+    - /url: /feed/you
+- main:
+  - heading "Your YouTube history is off" [level=2]
+  - text: You can turn on watch and search history at any time to get the latest videos tailored to you. To update your selection, turn on YouTube History and confirm your settings to accept the use of cookies and data.
+  - link "Learn more":
+    - /url: https://support.google.com/youtube/answer/95725
+  - link "Update setting":
+    - /url: https://consent.youtube.com/d?continue=https://www.youtube.com/%3Fcbrd%3D1&gl=NG&m=0&pc=yt&oyh=1&cm=6&hl=en&src=4
+- dialog "Before you continue to YouTube":
+  - text: A Google company
+  - 'button "Language: English"': en
+  - link "Sign in":
+    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en
+  - tooltip "tooltip"
+  - heading "Before you continue to YouTube" [level=2]
+  - text: We use
+  - link "cookies":
+    - /url: https://policies.google.com/technologies/cookies?hl=en
+  - text: and data to
+  - list:
+    - listitem: Deliver and maintain Google services
+    - listitem: Track outages and protect against spam, fraud, and abuse
+    - listitem: Measure audience engagement and site statistics to understand how our services are used and enhance the quality of those services
+  - text: If you choose to “Accept all,” we will also use cookies and data to
+  - list:
+    - listitem: Develop and improve new services
+    - listitem: Deliver and measure the effectiveness of ads
+    - listitem: Show personalized content, depending on your settings
+    - listitem: Show personalized ads, depending on your settings
+  - text: If you choose to “Reject all,” we will not use cookies for these additional purposes. Non-personalized content and ads are influenced by things like the content you’re currently viewing and your location (ad serving is based on general location). Personalized content and ads can also include things like video recommendations, a customized YouTube homepage, and tailored ads based on past activity, like the videos you watch and the things you search for on YouTube. We also use cookies and data to tailor the experience to be age-appropriate, if relevant. Select “More options” to see additional information, including details about managing your privacy settings. You can also visit g.co/privacytools at any time.
+  - button "Reject the use of cookies and other data for the purposes described": Reject all
+  - button "Accept the use of cookies and other data for the purposes described": Accept all
+  - link "More options":
+    - /url: https://consent.youtube.com/d?continue=https://www.youtube.com/%3Fcbrd%3D1&gl=NG&m=0&pc=yt&cm=2&hl=en&src=2&escs=AZ8E49AHIInNf88vz2md7ZDMkDq2ujIp_5KwrO4RzUlL1Ub2JOP4uESs5woNCBBBePoxgQ032Neim5pkSZm5RXFDPmr4AOrtAjRz
+  - link "Privacy Policy":
+    - /url: https://policies.google.com/privacy?hl=en
+  - link "Terms of Service":
+    - /url: https://policies.google.com/terms?hl=en
+```
+
+# Test source
+
+```ts
+  1  | import { test, expect } from '@playwright/test';
+  2  | 
+  3  | // test.describe.parallel('Parallel test suite', () => {
+  4  | //     test('Test 1 - Playwright.dev has correct title', async ({ page }) => {
+  5  | //         await page.goto('https://playwright.dev');
+  6  | //         await expect(page).toHaveTitle(/Playwright/);
+  7  | //     });
+  8  |     
+  9  | //     test('Test 2 - GitHub has correct title', async ({ page }) => {
+  10 | //         await page.goto('https://github.com');
+  11 | //         await expect(page).toHaveTitle(/GitHub/);
+  12 | //     });
+  13 | 
+  14 | //     test('Test 3 - Youtube has correct title', async ({ page }) => {
+  15 | //         await page.goto('https://youtube.com');
+  16 | //         await expect(page).toHaveTitle(/YouTube/);
+  17 | //     });
+  18 | // });
+  19 | 
+  20 | // or use
+  21 | 
+  22 | test.describe.configure({ mode: 'parallel' });
+  23 | test('V2 Test 1 - Youtube has correct title', async ({ page }) => {
+  24 |     await page.goto('https://youtube.com');
+> 25 |     await expect(page).toHaveTitle('/YouTube/');
+     |                        ^ Error: expect(page).toHaveTitle(expected) failed
+  26 | });
+  27 | 
+  28 | test('V2 Test 2 - Playwright.dev has correct title', async ({ page }) => {
+  29 |     await page.goto('https://playwright.dev');
+  30 |     await expect(page).toHaveTitle(/Playwright/);
+  31 | });
+  32 | 
+  33 | test('V2 Test 3 - GitHub has correct title', async ({ page }) => {
+  34 |     await page.goto('https://github.com');
+  35 |     await expect(page).toHaveTitle(/GitHub/);
+  36 | });
+  37 | 
+  38 | 
+```

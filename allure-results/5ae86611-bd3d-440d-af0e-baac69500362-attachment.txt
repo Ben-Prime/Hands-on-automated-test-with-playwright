@@ -1,0 +1,317 @@
+Network Requests: [
+  {
+    url: 'https://playwright.dev/',
+    method: 'GET',
+    resourceType: 'document',
+    status: 200,
+    responseSize: 20711,
+    duration: 300.80699999999706,
+    startTime: 1781531111561.886
+  },
+  {
+    url: 'https://playwright.dev/js/redirection.js',
+    method: 'GET',
+    resourceType: 'script',
+    status: 200,
+    responseSize: 6647,
+    duration: 174.393,
+    startTime: 1781531131338.2659
+  },
+  {
+    url: 'https://playwright.dev/img/playwright-logo.svg',
+    method: 'GET',
+    resourceType: 'image',
+    status: 200,
+    responseSize: 5033,
+    duration: 182.394,
+    startTime: 1781531131338.8337
+  },
+  {
+    url: 'https://playwright.dev/assets/css/styles.95d52ad3.css',
+    method: 'GET',
+    resourceType: 'stylesheet',
+    status: 200,
+    responseSize: 164442,
+    duration: 252.943,
+    startTime: 1781531131338.6973
+  },
+  {
+    url: 'https://playwright.dev/assets/js/runtime~main.60f02bfe.js',
+    method: 'GET',
+    resourceType: 'script',
+    status: 200,
+    responseSize: 21589,
+    duration: 587.465,
+    startTime: 1781531131517.9949
+  },
+  {
+    url: 'https://playwright.dev/img/logos/VSCode.png',
+    method: 'GET',
+    resourceType: 'image',
+    status: 200,
+    responseSize: 69498,
+    duration: 893.109,
+    startTime: 1781531131517.02
+  },
+  {
+    url: 'https://playwright.dev/img/logos/Bing.png',
+    method: 'GET',
+    resourceType: 'image',
+    status: 200,
+    responseSize: 25157,
+    duration: 893.2959999999999,
+    startTime: 1781531131517.769
+  },
+  {
+    url: 'https://playwright.dev/assets/js/main.6a310275.js',
+    method: 'GET',
+    resourceType: 'script',
+    status: 200,
+    responseSize: 614790,
+    duration: 992.15,
+    startTime: 1781531131518.4373
+  },
+  {
+    url: 'https://playwright.dev/img/logos/Browsers.png',
+    method: 'GET',
+    resourceType: 'image',
+    status: 200,
+    responseSize: 474128,
+    duration: 994.157,
+    startTime: 1781531131338.973
+  },
+  {
+    url: 'https://playwright.dev/img/logos/Outlook.png',
+    method: 'GET',
+    resourceType: 'image',
+    status: 200,
+    responseSize: 71664,
+    duration: 994.321,
+    startTime: 1781531131518.655
+  },
+  {
+    url: 'https://playwright.dev/img/logos/DHotstar.jpg',
+    method: 'GET',
+    resourceType: 'image',
+    status: 200,
+    responseSize: 71857,
+    duration: 1063.5490000000002,
+    startTime: 1781531131519.0488
+  },
+  {
+    url: 'https://playwright.dev/img/logos/ING.png',
+    method: 'GET',
+    resourceType: 'image',
+    status: 200,
+    responseSize: 14443,
+    duration: 1063.716,
+    startTime: 1781531131519.5361
+  },
+  {
+    url: 'https://playwright.dev/img/logos/Adobe2.png',
+    method: 'GET',
+    resourceType: 'image',
+    status: 200,
+    responseSize: 16886,
+    duration: 1063.861,
+    startTime: 1781531131519.882
+  },
+  {
+    url: 'https://playwright.dev/img/logos/ReactNavigation.png',
+    method: 'GET',
+    resourceType: 'image',
+    status: 200,
+    responseSize: 20148,
+    duration: 1068.7659999999998,
+    startTime: 1781531131520.2078
+  },
+  {
+    url: 'https://playwright.dev/img/logos/accessibilityinsights.png',
+    method: 'GET',
+    resourceType: 'image',
+    status: 200,
+    responseSize: 61761,
+    duration: 1073.11,
+    startTime: 1781531131520.4028
+  },
+  {
+    url: 'https://playwright.dev/img/logos/MUI.png',
+    method: 'GET',
+    resourceType: 'image',
+    status: 200,
+    responseSize: 74407,
+    duration: 1094.544,
+    startTime: 1781531131519.375
+  },
+  {
+    url: 'https://playwright.dev/assets/js/a7456010.97ed42dc.js',
+    method: 'GET',
+    resourceType: 'script',
+    status: 200,
+    responseSize: 194,
+    duration: 157.109,
+    startTime: 1781531132384.5708
+  },
+  {
+    url: 'https://playwright.dev/assets/js/1df93b7f.c05c3441.js',
+    method: 'GET',
+    resourceType: 'script',
+    status: 200,
+    responseSize: 10223,
+    duration: 168.16899999999998,
+    startTime: 1781531132384.35
+  },
+  {
+    url: 'https://playwright.dev/img/playwright-logo.ico',
+    method: 'GET',
+    resourceType: 'other',
+    status: 200,
+    responseSize: 113314,
+    duration: 174.9,
+    startTime: 1781531132574.6812
+  },
+  {
+    url: 'https://playwright.dev/assets/js/1df93b7f.c05c3441.js',
+    method: 'GET',
+    resourceType: 'other',
+    status: 200,
+    responseSize: 10223,
+    duration: 147.319,
+    startTime: 1781531132749.8103
+  },
+  {
+    url: 'https://playwright.dev/assets/js/a7456010.97ed42dc.js',
+    method: 'GET',
+    resourceType: 'other',
+    status: 200,
+    responseSize: 194,
+    duration: 147.631,
+    startTime: 1781531132750.6562
+  },
+  {
+    url: 'https://playwright.dev/assets/js/5e95c892.af50b09f.js',
+    method: 'GET',
+    resourceType: 'other',
+    status: 200,
+    responseSize: 367,
+    duration: 172.192,
+    startTime: 1781531132601.212
+  },
+  {
+    url: 'https://playwright.dev/assets/js/aba21aa0.f4b26fa7.js',
+    method: 'GET',
+    resourceType: 'other',
+    status: 200,
+    responseSize: 193,
+    duration: 172.125,
+    startTime: 1781531132601.564
+  },
+  {
+    url: 'https://playwright.dev/assets/js/a94703ab.eae5ffb6.js',
+    method: 'GET',
+    resourceType: 'other',
+    status: 200,
+    responseSize: 17856,
+    duration: 171.069,
+    startTime: 1781531132602.9548
+  },
+  {
+    url: 'https://playwright.dev/assets/js/0058b4c6.2d954b43.js',
+    method: 'GET',
+    resourceType: 'other',
+    status: 200,
+    responseSize: 43431,
+    duration: 177.538,
+    startTime: 1781531132602.4832
+  },
+  {
+    url: 'https://playwright.dev/assets/js/a7bd4aaa.c0966a1a.js',
+    method: 'GET',
+    resourceType: 'other',
+    status: 200,
+    responseSize: 1135,
+    duration: 178.373,
+    startTime: 1781531132601.6882
+  },
+  {
+    url: 'https://playwright.dev/assets/js/17896441.47b4fc42.js',
+    method: 'GET',
+    resourceType: 'other',
+    status: 200,
+    responseSize: 1283,
+    duration: 334.86600000000004,
+    startTime: 1781531132749.6372
+  },
+  {
+    url: 'https://playwright.dev/assets/js/9286ee89.c11cdb3b.js',
+    method: 'GET',
+    resourceType: 'other',
+    status: 200,
+    responseSize: 195,
+    duration: 333.824,
+    startTime: 1781531132751.137
+  },
+  {
+    url: 'https://playwright.dev/assets/js/e8d03e9d.a69ca336.js',
+    method: 'GET',
+    resourceType: 'other',
+    status: 200,
+    responseSize: 7728,
+    duration: 333.83200000000005,
+    startTime: 1781531132773.364
+  },
+  {
+    url: 'https://playwright.dev/assets/js/4cf51b27.549edd06.js',
+    method: 'GET',
+    resourceType: 'other',
+    status: 200,
+    responseSize: 12945,
+    duration: 335.262,
+    startTime: 1781531132749.769
+  },
+  {
+    url: 'https://playwright.dev/assets/js/1f929c45.3bb0556f.js',
+    method: 'GET',
+    resourceType: 'other',
+    status: 200,
+    responseSize: 9852,
+    duration: 339.455,
+    startTime: 1781531132779.914
+  },
+  {
+    url: 'https://playwright.dev/assets/js/f88cd2dc.8d795f01.js',
+    method: 'GET',
+    resourceType: 'other',
+    status: 200,
+    responseSize: 8978,
+    duration: 341.213,
+    startTime: 1781531132773.461
+  },
+  {
+    url: 'https://playwright.dev/assets/js/90f396e5.cdbe4289.js',
+    method: 'GET',
+    resourceType: 'other',
+    status: 200,
+    responseSize: 10088,
+    duration: 340.009,
+    startTime: 1781531132773.551
+  },
+  {
+    url: 'https://playwright.dev/assets/js/b9c22686.49a81011.js',
+    method: 'GET',
+    resourceType: 'other',
+    status: 200,
+    responseSize: 188,
+    duration: 339.337,
+    startTime: 1781531132779.747
+  },
+  {
+    url: 'https://playwright.dev/assets/js/aa415147.b9cfef60.js',
+    method: 'GET',
+    resourceType: 'other',
+    status: 200,
+    responseSize: 14574,
+    duration: 489.058,
+    startTime: 1781531132938.7788
+  }
+]

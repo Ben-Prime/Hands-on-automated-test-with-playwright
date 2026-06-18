@@ -1,0 +1,12 @@
+- Chapter 1: Quick Setup Refresher
+- Chapter 2: Advanced Selectors and Handling Dynamic Content
+- Chapter 3: Browser-Agnostic Testing Across Chromium, Firefox, and WebKit
+- Chapter 4: AI-Powered Test Generation
+- Chapter 5: Crafting Scalable Tests with the Fixture System
+- Chapter 6: Test Parallelization and Performance Optimization
+- Chapter 7: Integrating Workflows with CI/CD Pipelines
+- Chapter 8: Headless Testing and Debugging
+- Chapter 9: Accessibility Testing with Playwright and axe-core
+- Chapter 10: Setting Up Visual Regression Testing
+- Chapter 11: Testing Mobile Web Experiences
+- Chapter 12: Testing Forms

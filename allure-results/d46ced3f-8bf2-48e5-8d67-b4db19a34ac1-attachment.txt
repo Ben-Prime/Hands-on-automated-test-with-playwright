@@ -1,0 +1,4 @@
+Paint timings: [
+  { name: 'first-paint', startTime: 828 },
+  { name: 'first-contentful-paint', startTime: 828 }
+]

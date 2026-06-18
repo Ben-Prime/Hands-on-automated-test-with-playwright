@@ -1,0 +1,127 @@
+Navigation timings: {
+  startTime: 0,
+  connectEnd: 1.200000001117587,
+  domContentLoaded: 2065.4000000003725,
+  loadTime: 2463.4000000003725
+}
+Resource timings: [
+  {
+    name: 'https://playwright.dev/js/redirection.js',
+    startTime: 402.1000000014901,
+    duration: 1049.5,
+    decodedBodySize: 6647,
+    transferSize: 2017
+  },
+  {
+    name: 'https://playwright.dev/assets/css/styles.95d52ad3.css',
+    startTime: 402.5,
+    duration: 1034.5,
+    decodedBodySize: 164442,
+    transferSize: 33981
+  },
+  {
+    name: 'https://playwright.dev/assets/js/runtime~main.cd465f88.js',
+    startTime: 402.6000000014901,
+    duration: 1426.7999999988824,
+    decodedBodySize: 21492,
+    transferSize: 10813
+  },
+  {
+    name: 'https://playwright.dev/assets/js/main.bb7c0676.js',
+    startTime: 402.7000000011176,
+    duration: 1623.5,
+    decodedBodySize: 613561,
+    transferSize: 160553
+  },
+  {
+    name: 'https://playwright.dev/img/playwright-logo.svg',
+    startTime: 402.80000000074506,
+    duration: 1049.9000000003725,
+    decodedBodySize: 5033,
+    transferSize: 2417
+  },
+  {
+    name: 'https://playwright.dev/img/logos/Browsers.png',
+    startTime: 402.90000000037253,
+    duration: 1050,
+    decodedBodySize: 474128,
+    transferSize: 474428
+  },
+  {
+    name: 'https://playwright.dev/img/logos/VSCode.png',
+    startTime: 402.90000000037253,
+    duration: 1423.9000000003725,
+    decodedBodySize: 69498,
+    transferSize: 69798
+  },
+  {
+    name: 'https://playwright.dev/img/logos/Bing.png',
+    startTime: 403.1000000014901,
+    duration: 1424.5,
+    decodedBodySize: 25157,
+    transferSize: 25457
+  },
+  {
+    name: 'https://playwright.dev/img/logos/Outlook.png',
+    startTime: 403.1000000014901,
+    duration: 1804.199999999255,
+    decodedBodySize: 71664,
+    transferSize: 71964
+  },
+  {
+    name: 'https://playwright.dev/img/logos/DHotstar.jpg',
+    startTime: 403.2000000011176,
+    duration: 1755.199999999255,
+    decodedBodySize: 71857,
+    transferSize: 72157
+  },
+  {
+    name: 'https://playwright.dev/img/logos/MUI.png',
+    startTime: 403.40000000037253,
+    duration: 1899.0999999996275,
+    decodedBodySize: 74407,
+    transferSize: 74707
+  },
+  {
+    name: 'https://playwright.dev/img/logos/ING.png',
+    startTime: 403.5,
+    duration: 1918,
+    decodedBodySize: 14443,
+    transferSize: 14743
+  },
+  {
+    name: 'https://playwright.dev/img/logos/Adobe2.png',
+    startTime: 403.6000000014901,
+    duration: 1928.5999999996275,
+    decodedBodySize: 16886,
+    transferSize: 17186
+  },
+  {
+    name: 'https://playwright.dev/img/logos/ReactNavigation.png',
+    startTime: 403.6000000014901,
+    duration: 1973.5,
+    decodedBodySize: 20148,
+    transferSize: 20448
+  },
+  {
+    name: 'https://playwright.dev/img/logos/accessibilityinsights.png',
+    startTime: 403.7000000011176,
+    duration: 2019.5999999996275,
+    decodedBodySize: 61761,
+    transferSize: 62061
+  },
+  {
+    name: 'https://playwright.dev/assets/js/1df93b7f.c05c3441.js',
+    startTime: 2064.800000000745,
+    duration: 364.59999999962747,
+    decodedBodySize: 10223,
+    transferSize: 3708
+  },
+  {
+    name: 'https://playwright.dev/assets/js/a7456010.97ed42dc.js',
+    startTime: 2065.10000000149,
+    duration: 389.09999999962747,
+    decodedBodySize: 194,
+    transferSize: 494
+  }
+]
