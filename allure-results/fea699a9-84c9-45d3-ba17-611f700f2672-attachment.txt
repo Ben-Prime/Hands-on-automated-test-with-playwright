@@ -1,0 +1,2 @@
+Downloaded file: self-portrait_1998.74.5.jpg at C:\Users\USER\Documents\TestAutomation\Hands-on-automated-test-with-playwright\test-results\.playwright-artifacts-14\87e896f4-109f-4b69-a2b2-5c31ce5a584f
+Downloaded file: self-portrait_1998.74.5.jpg at C:\Users\USER\Documents\TestAutomation\Hands-on-automated-test-with-playwright\test-results\.playwright-artifacts-14\87e896f4-109f-4b69-a2b2-5c31ce5a584f, Size:6.15 MB

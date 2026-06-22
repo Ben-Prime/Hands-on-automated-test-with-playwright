@@ -10,3 +10,5 @@
 - Chapter 10: Setting Up Visual Regression Testing
 - Chapter 11: Testing Mobile Web Experiences
 - Chapter 12: Testing Forms
+- Chapter 13: Handling File Uploads and Downloads
+- Chapter 14: Security and Authentication
