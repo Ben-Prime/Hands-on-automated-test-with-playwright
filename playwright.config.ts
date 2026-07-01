@@ -89,22 +89,36 @@ export default defineConfig({
     //   name: 'Mobile Safari',
     //   use: { ...devices['iPhone 12'] },
     // },
-    
+
 
     /* Test against branded browsers. */
     // {
     //   name: 'Microsoft Edge',
     //   use: { ...devices['Desktop Edge'], channel: 'msedge' },
     // },
+    // Setup project
+    {
+      name: 'setup',
+      testMatch: /.*\.setup\.ts/,
+    },
+    // {
+    //   name: 'e2e-tests',
+    //   dependencies: ['setup'],
+    //   use: {
+    //     storageState: '.auth/standard_user.json',
+    //   },
+    // },
     // Standard Functional Project
     {
       name: 'Google Chrome',
+      //dependencies: ['setup'],
       // fullyParallel: true, // only this project runs all tests in parallel
       // IMPORTANT: Set standard projects to ignore visual tests i,e with tag @visual in test description
-        grepInvert: /@visual/, // to allow visual test use grep: /@visual/
+      grepInvert: /@visual/, // to allow visual test use grep: /@visual/
       use: {
         ...devices['Desktop Chrome'],
         channel: 'chrome',
+        storageState: '.auth/standard_user.json',
         // launchOptions: {
         //   slowMo: 1000, // pauses for 1000 milliseconds between actions
         // }
